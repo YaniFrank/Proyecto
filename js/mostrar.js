@@ -2,6 +2,6 @@ const p = '{"Nombre":"Lucia","Apellido":"Constantine","Edad":"37","Fecha de Naci
 const obj = JSON.parse(p);
 document.getElementById("persona").innerHTML = obj.Nombre+" "+obj.Apellido;
 console.log(obj.Nombre);
-document.getElementById("telefono").innerHTML = obj.Telefono;
-document.getElementById("correo").innerHTML = obj.Correo;
-document.getElementById("direccion").innerHTML = obj.Direccion+", "+obj.Localidad;
+document.getElementById("telefono").innerHTML = " "+obj.Telefono;
+document.getElementById("correo").innerHTML = " "+obj.Correo;
+document.getElementById("direccion").innerHTML = " "+obj.Direccion+", "+obj.Localidad;

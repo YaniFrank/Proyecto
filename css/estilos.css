@@ -1,6 +1,4 @@
-* {
-    width: 100%;
-}
+
 #header {
     text-align: center;
     color: black;
@@ -12,9 +10,10 @@
 #section {
     background-color: rgb(103, 110, 189);
     border: 5px solid rgb(80, 84, 143);
-
     padding: 2px;
-    margin: 1px;    
+    margin: 1px;
+    height: 500px;
+    
 }
 #imagen {
     font-size: calc(1em + 1vw);
@@ -26,12 +25,12 @@
     font-family: "Courier New", Courier, monospace;
     font-size: 70px;
     font-weight: 700;
-
 }
-#telefono,#correo,#direccion {
-    text-align: center;
+#telefono,#correo,#direccion,#icon,#i {
+    text-align: left;
     padding: 10px;
+    padding-left: 30px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
+    font-size: 25px;
 
 }

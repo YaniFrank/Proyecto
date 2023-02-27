@@ -11,12 +11,13 @@
     
 </head>
 <body>
+
     <div id="header">
         <div class="row">
-            <div class="col-3">
-                <img id="imagen" src="https://media.licdn.com/dms/image/C4E12AQEVO-ZAozxJ3Q/article-cover_image-shrink_600_2000/0/1534479718033?e=2147483647&v=beta&t=ehPjnCD2Nz7aFYN13mZVQ0hww3LG_5pFo_YGjh_6tMk" alt="Imagen" width="300px" height="200px"/>        
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 container nombre">
+                <img id="imagen" src="https://media.licdn.com/dms/image/C4E12AQEVO-ZAozxJ3Q/article-cover_image-shrink_600_2000/0/1534479718033?e=2147483647&v=beta&t=ehPjnCD2Nz7aFYN13mZVQ0hww3LG_5pFo_YGjh_6tMk" alt="Imagen"/>        
             </div>
-            <div class="col-9"> 
+            <div class="col-xs-12 col-sm-6 col-md-8 col-lg-9 container nombre"> 
                 <h1 id="persona"></h1>
             </div>
         </div>
@@ -24,8 +25,8 @@
 
    
     <div class="row">
-        <div class="col-3">
-            <div id="section">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="container" id="section">
                 <div class="row mt-2">
                     <div>
                         <i class="bi bi-telephone-fill" id="telefono"></i>
@@ -36,55 +37,50 @@
                     <div>
                         <i class="bi bi-envelope-fill" id="correo"></i>
                         <p id="correo"></p>
-                        
                     </div>
                 </div>
-                <div clas="row mt-2">
+                <div class="row mt-2">
                     <div>
                         <i class="bi bi-geo-alt-fill" id="direccion"></i>
-                        <p id="direccion"></p>
+                        <p id="direccion"></p>                        
                     </div>
                 </div>
+
                 <div clas="row mt-2">
                     <div>
-                        <div type="button" id="boton">
-                            <i class="bi bi-three-dots" id="i"></i>
-                            <p id="todo">Ver toda la información</p>
+                        <div type="button" class="button" id="boton">
+                            <p id="todo"><i class="bi bi-three-dots" id="i"></i>  Ver todo</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-3">
-            <div id="section1">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">
+            <div class="container" id="section1">
                 <div class="row mt-2">
-                    <div>
-                        <div type="button" id="boton1">
-                            <i class="bi bi-person-lines-fill" id="i"></i>
-                            <p id="datos">Información</p>
-                        </div>
+                    <div type="button" class="button" id="boton1">
+                        <p id="datos"><i class="bi bi-person-lines-fill" id="i"></i>  Información</p>
                     </div>
                 </div>
                 <div class="row mt-2">
-                    <div>
-                        <div type="button" id="boton2">
-                            <i class="bi bi-briefcase-fill" id="i"></i>
-                            <p id="experiencia">Experiencia</p>
-                        </div>
+                    <div type="button" class="button" id="boton2">
+                        <p id="experiencia"><i class="bi bi-briefcase-fill" id="i"></i>  Experiencia</p>
                     </div>
                 </div>
-                <div clas="row mt-2">
-                    <div>
-                        <div type="button" id="boton3">
-                            <i class="bi bi-puzzle-fill" id="i"></i>
-                            <p id="habilidades">Habilidades</p>
-                        </div>
+                <div class="row mt-2">
+                    <div type="button" class="button" id="boton3" >
+                        <p id="habilidades"><i class="bi bi-puzzle-fill"></i>  Habilidades</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-6">
-            <div id="section2">
+        <div class="col-xs-8 col-sm-8 col-md-4 col-lg-6">
+            <div class="container" id="section3">
+                <div class="row mt-2">
+                    <div>
+                        <p id="titulo"></p>
+                    </div>
+                </div>
                 <div class="row mt-2">
                     <div>
                         <p id="parrafo"></p>
